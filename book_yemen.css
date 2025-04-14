@@ -7,6 +7,23 @@
 html {
     scrollbar-width: none; /* إخفاء شريط التمرير */
 }
+@media (width<=500px) {
+    .level_img
+{
+    width: 60%;
+    /* padding: -20px; */
+    margin: 20px;
+}
+}
+@media (width>500px) {
+    .level_img
+{
+    width: 35vw;
+    /* padding: 20px; */
+    margin: 20px;
+}
+    
+}
 
 /* إخفاء شريط التمرير في Internet Explorer و Edge */
 body {
@@ -40,12 +57,7 @@ header div{
     color:white;background-color: rgb(6, 194, 34);
     border-radius:20px 20px 0 0 ;
 }
-.level_img
-{
-    width: 27vw;
-    /* padding: 20px; */
-    margin: 20px;
-}
+
 .level_img_1
 {
     width: 160px;
